@@ -11,4 +11,11 @@ import java.util.List;
 public interface ILibro extends JpaRepository<MLibro, Integer>
 {
     List<MLibro> findBycodLibro (Integer codLibro);
+
+    List <MLibro> findBynombreAutor (String nombreAutor);
+
+    List <MLibro> findByApellidoAutor (String ApellidoAutor);
 }
+
+
+

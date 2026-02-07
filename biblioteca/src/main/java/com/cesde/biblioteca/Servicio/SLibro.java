@@ -59,7 +59,7 @@ public class SLibro
        }
     }
 
-   /* public List<MLibro> consultaIndividualNombreAutor (String nombreAutor) throws Exception
+   public List<MLibro> consultaIndividualNombreAutor (String nombreAutor) throws Exception
    {
      try {
          return this.iLibro.findBynombreAutor(nombreAutor);
@@ -71,11 +71,11 @@ public class SLibro
     public List<MLibro> consultaIndividualApellidoAutor (String apellidoAutor) throws Exception
     {
         try {
-            return this.iLibro.findByapellidoAutor(apellidoAutor);
+            return this.iLibro.findByApellidoAutor(apellidoAutor);
         } catch (Exception error) {
             throw new Exception(error.getMessage());
         }
-    } */
+    }
 
     public MLibro modificar (MLibro mLibro, Integer codLibro) throws  Exception
    {
